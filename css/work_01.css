@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+#container{
+  width: 84%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body{
+  background-color: #f2e5ff;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+   position: relative;
+   height: 11rem;
+   background: #f2e5ff;
+   box-shadow: inset 0rem 3rem #cc99ff
+ }
+
+ header h1{
+   position: absolute;
+   top: 4rem;
+   left: 0;
+   right: 0;
+   margin: auto;
+   font-size: 3rem;
+   color: #cc99ff;
+}
+
+ header h3{
+   position: absolute;
+   top: 8rem;
+   left: 0;
+   right: 0;
+   margin: auto;
+   color: #cc99ff;
+ }
+
+nav {
+    position: absolute;
+    top: 1rem;
+    right: 0rem;
+    background: #cc99ff;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li{
+    margin-right: 2rem;
+  }
+  nav ul li a {
+    color: #333333;
+  }
+
+    main{
+    display: flex;
+    flex-wrap：wrap;
+    justify-content:space-between;
+    }
+
+    main h2{
+      font-size: 2rem;
+      color: #333333;
+      margin-bottom: 2rem;
+    }
+
+    main h3{
+      font-size: 1rem;
+      color: #333333;
+      margin-bottom: 1.5rem;
+    }
+
+    main p{
+      font-size: 1rem;
+      color: #333333;
+      margin-top: 3rem;
+    }
+
+    .wrapper{
+        min-height: 100vh;
+        position: relative;
+        padding-bottom: 120px;
+        box-sizing: border-box;
+    }
+
+    footer {
+      width: 100%;
+      padding: 2rem 0rem;
+      text-align: center;
+      background: #cc99ff;
+      color: #333333;
+
+      position: absolute;
+      bottom: 0;
+    　}
